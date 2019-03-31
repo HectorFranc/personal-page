@@ -48,7 +48,30 @@
 
     <main>
         <div class="container">
+            <div class="row">
+                <form action="contact.html" method="post" class="col s12 offset-l1 l10">
+                    <div class="row">
+                        <div class="input-field col s12 m6"> 
+                            <input type="text" id="name" />
+                            <label for="name">Nombre(s)</label>
+                        </div>
+                        <div class="input-field col s12 m6"> 
+                                <input type="text" id="name" />
+                                <label for="name">Apellido(s)</label>
+                            </div>
+                        <div class="input-field col s12">
+                            <input type="email" id="mail" />
+                            <label for="mail">E-mail:</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <textarea id="msj" class="materialize-textarea"></textarea>
+                            <label for="msg">Mensaje</label>
+                        </div>
 
+                        <button class="col s12 btn waves-effect waves-light indigo darken-3" type="submit" name="action">Enviar</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </main>
 
